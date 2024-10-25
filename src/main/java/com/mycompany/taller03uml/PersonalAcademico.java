@@ -4,11 +4,15 @@
  */
 package com.mycompany.taller03uml;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author CltControl
  */
 public class PersonalAcademico {
+    
+    protected ArrayList<Incidente> incidentes;
     
     public void reportarError(String email, String contenido){
         //Hace algo

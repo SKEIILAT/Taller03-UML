@@ -4,13 +4,12 @@
  */
 package com.mycompany.taller03uml;
 
-import java.util.Date;
-
 /**
  *
- * @author CltControl
+ * @author User
  */
-public class Tarea extends ActividadSumativa {
-    
-    private Date fechaDePublicacion;
+public class Foro {
+    private String id;
+    private String tematica;
+    private int numeroDeComentarios;
 }

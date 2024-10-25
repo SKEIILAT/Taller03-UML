@@ -10,7 +10,7 @@ package com.mycompany.taller03uml;
  */
 public class Estudiante extends PersonalAcademico{
     
-    public void solicitarCurso(Curso curso){
+    public void solicitarInscripcionCurso(Curso curso){
         //Hace algo
     }
     
