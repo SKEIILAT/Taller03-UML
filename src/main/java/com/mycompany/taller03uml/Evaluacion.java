@@ -10,5 +10,5 @@ package com.mycompany.taller03uml;
  */
 public class Evaluacion extends ActividadSumativa {
     
-    private int limiteDeTiempo;
+    public int limiteDeTiempo;
 }
