@@ -10,7 +10,9 @@ package com.mycompany.taller03uml;
  */
 public class Taller03UML {
 
+    private static final Logger LOGGER = Logger.getLogger(Taller03UML.class.getName());
+
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        LOGGER.info("Hello World!");
     }
 }
