@@ -9,7 +9,7 @@ package com.mycompany.taller03uml;
  * @author User
  */
 public class Foro {
-    private String id;
-    private String tematica;
-    private int numeroDeComentarios;
+    public String id;
+    public String tematica;
+    public int numeroDeComentarios;
 }
