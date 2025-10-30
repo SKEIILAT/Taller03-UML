@@ -13,13 +13,13 @@ import java.util.Date;
  */
 public class Incidente {
     protected int id;
-    protected Date fecha_reportado;
+    protected Date fechaReportado;
     protected String estado;
     protected String titulo;
     protected String descripcion;
     protected PersonalAcademico beneficiario;
     protected Usuario responsable;
-    protected ArrayList log_actualizaciones;
-    protected Date fecha_cerrado;
+    protected ArrayList logActualizaciones;
+    protected Date fechaCerrado;
     protected String tipo;
 }
